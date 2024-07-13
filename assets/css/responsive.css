@@ -1,0 +1,53 @@
+
+@media (max-width:1479px){
+    ul.navbar-nav {
+        gap:0;
+    }
+    a.nav-link {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+@media (max-width:1024px){
+    .inner-banner-bg {
+        padding: 100px 20px;
+    }
+    .site-logo a img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width:992px){
+    .site-logo a img {
+        width: 100%;
+        max-width: 50%;
+    }
+    .registration-form h3{
+        font-size: 26px;
+      }
+}
+@media (max-width:768px){
+    .site-logo a img {
+        max-width: 70%;
+    }
+
+    .registration-form{
+        width: 100%;
+      }
+}
+@media (max-width:575px) {
+    .inner-banner-bg {
+        padding: 90px 20px;
+    }
+    .site-logo a img {
+        max-width: 75%;
+    }
+    .registration-form h3{
+        font-size: 22px;
+      }
+    .registration-form p{
+        font-size: 14px;
+      }
+    
+}
